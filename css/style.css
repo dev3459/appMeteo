@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html{
+    font-size: 62.5%;
+}
+    
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+h1{
+    color: blue;
+    text-transform: uppercase;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#containtInputs{
+    display: flex;
+    flex-direction: column;
+}
+
+#containtInputs label{
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+}
+
+#containtInputs input{
+    margin: 1rem 0;
+    padding: 1rem;
+    outline: none;
+    background-color: cornflowerblue;
+}
+
+#containtInputs input::placeholder{
+    color: yellow;
+    font-weight: bold;
+    text-transform: lowercase;
+}
